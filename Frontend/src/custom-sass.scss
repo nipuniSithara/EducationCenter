@@ -1,0 +1,161 @@
+$btnColor1 : #934d76;
+$btnfont1 : #FFFFFF;
+
+$btnColor2 : #ffffff;
+$btnfont2 : #47012A;
+
+$headercolor : #66023C;
+$labelcolor : #47012A;
+
+$errorcolor : #d73b3e;
+
+$bg-img : url('./images/background.jpg');
+
+[data-column-id="emp_Id"].rdt_TableCol{
+    max-width: 15px;
+}
+[data-column-id="emp_Id"].rdt_TableCell{
+    max-width: 15px;
+}
+
+.login-page{
+    width: 100vw;
+    height: 100vh;
+    background-image: $bg-img;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+}
+.login-form{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 50%;
+    margin-left: 5%;
+    margin-top: auto;
+}
+.color{
+    color: $labelcolor !important;
+}
+.custom-label{
+    text-align: left !important;
+}
+.custom-head{
+    margin-bottom: 3rem;
+    color: $headercolor;
+    font-size: large;
+    font-weight: 700;
+}
+.ok-btn{
+    margin-top: 1rem;
+    background-color: $btnColor1;
+    font-size: large;
+    font-weight: 600;
+    color: $btnfont1;
+}
+.custom-nav{
+    padding: 5px 15px 5px 15px;
+}
+.profile-color{
+    color: $labelcolor;
+}
+.topic{
+    color: $headercolor;
+    font-size: x-large;
+    font-weight: 700;
+}
+.common-btn{
+    background-color: $btnColor1;
+    font-size: large;
+    font-weight: 600;
+    color: $btnfont1;
+}
+.common-btn2{
+    background-color: $btnColor2;
+    font-size: large;
+    font-weight: 600;
+    color: $btnfont2;
+    border: $btnfont2 solid 1px;
+}
+.btn-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.custom-table-head{
+    color: $labelcolor;
+    font-weight: 600 !important;
+}
+.custom-page{
+    padding: 5px 15px 5px 15px;
+}
+.modal-background{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container{ 
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: rgb(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.main-modal-container{
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.spinner-modal{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 90vh;
+    margin-top: calc(100vh - 85vh - 40px);
+}
+.delete-modal-container{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 90vh;
+    margin-top: calc(100vh - 85vh - 40px);
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 20px 30px;
+    border: 1px solid #999;
+    overflow: auto;
+    color: $labelcolor;
+}
+.second-modal-container{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 90vh;
+    margin-top: calc(100vh - 85vh - 40px);
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 20px 30px;
+    border: 1px solid #999;
+    overflow: auto;
+    color: $labelcolor;
+}
+.error-msg{
+    color: $errorcolor;
+}
+// p{
+//     margin-bottom: 0px !important;
+// }
