@@ -164,3 +164,11 @@ $bg-img : url('./images/background.jpg');
     padding: 5px;
     background-color:#043447;
 }
+.tiles-container{
+    //margin-top: 1rem;
+    margin: 1rem 3rem 1rem 3rem;
+}
+.tile{
+    margin: 0 1rem 0 1rem;
+    border: 1px solid #000000;
+}
