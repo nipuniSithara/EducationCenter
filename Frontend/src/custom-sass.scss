@@ -166,9 +166,24 @@ $bg-img : url('./images/background.jpg');
 }
 .tiles-container{
     //margin-top: 1rem;
-    margin: 1rem 3rem 1rem 3rem;
+    margin: 1rem 10rem 1rem 10rem;
 }
 .tile{
     margin: 0 1rem 0 1rem;
-    border: 1px solid #000000;
+    //border: 1px solid #000000;
+    height: 10rem;
+    color: #ffffff;
+    font-size: larger;
+}
+.tab-icon{
+    font-size: 100px;
+}
+.all-course{
+    background-color:#397c9c ;
+}
+.your-course{
+    background-color: #4b6f89;
+}
+.profile-tab{
+    background-color: #739983;
 }
