@@ -1,8 +1,9 @@
+import {AllCoursesData} from '../data';
 
 export const AllCourses = () => {
     return(
         <div className="main-container">
-            <div className="d-flex flex-row justify-content-between"> 
+            <div className="d-flex flex-row justify-content-between mb-2"> 
                 <div className="col-5 d-flex flex-row justify-content-between">
                     <label for="inputEmail3" class="col-sm-4 col-form-label">Department</label>
                     <div class="col-sm-8">
@@ -26,6 +27,17 @@ export const AllCourses = () => {
                         </select>
                     </div>
                 </div>
+            </div>
+            <div className="d-flex flex-column">
+                {AllCoursesData.map((item)=>{
+                    return(
+                    <div className="d-flex flex-row shadow mb-3 bg-body rounded">
+                        <div className='col-5'>{item.name}</div>
+                        <div className='col-2'>Level:{item.levels}</div>
+                        <div className='col-2'><button className='btn'>See More</button></div>
+                    </div>
+                    )
+                })}
             </div>
         </div>
     )
